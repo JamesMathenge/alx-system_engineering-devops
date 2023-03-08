@@ -1,3 +1,2 @@
 #!/bin/bash
-ls -1A -v | sed -e 's/\([^\/]\)$/\1\//' | paste -sd ',\n' -
- 
+ls -amvp 

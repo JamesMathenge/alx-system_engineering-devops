@@ -1,2 +1,2 @@
 #!/bin/bash
-echo  tail -n 10 iacta | head -n 10 >> iacta   
+cp tail -n 1 iacta iacta

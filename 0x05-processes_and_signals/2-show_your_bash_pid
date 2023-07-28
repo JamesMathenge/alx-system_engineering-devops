@@ -1,5 +1,5 @@
-#!/bin/bash
-# Use ps command to display all processes for all users, including those without a TTY,
-# in a user-oriented format and show process hierarchy. Then, use grep to filter lines containing the word "bash".
+s script displays a list of currently running processes
+# displays lines containing the bash word
+# shellcheck disable=SC2009
 
 ps auxf | grep bash

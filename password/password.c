@@ -25,9 +25,7 @@ bool checkPassword(const char* password) {
 	    //                                                                                                                     break;
 	    //                                                                                                                                 }
 	    //                                                                                                                                         }
-	    //                                                                                                                                                 if (!has_upper) {
-	    //                                                                                                                                                             return false;
-	    //                                                                                                                                                                     }
+	    //                                                                                                                                                                                                                                                                      }
 	    //                                                                                                                                                                         }
 	    //
 	    //                                                                                                                                                                             // Check for lowercase letter
@@ -36,8 +34,7 @@ bool checkPassword(const char* password) {
 	    //                                                                                                                                                                                                 for (int i = 0; i < password_length; i++) {
 	    //                                                                                                                                                                                                             if (password[i] >= 'a' && password[i] <= 'z') {
 	    //                                                                                                                                                                                                                             has_lower = true;
-	    //                                                                                                                                                                                                                                             break;
-	    //                                                                                                                                                                                                                                                         }
+	    //                                                                                                                                                                                                                                                                   }
 	    //                                                                                                                                                                                                                                                                 }
 	    //                                                                                                                                                                                                                                                                         if (!has_lower) {
 	    //                                                                                                                                                                                                                                                                                     return false;
